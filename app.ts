@@ -8,3 +8,7 @@ function  calculateAverage(array: number[]){
     return average;
 
 }
+let arr1: number[]= [17, 9, 4, 82, 15, 36];
+let arr2: number[]=  [9, 4, 1, 7, 2, 3, 5, 8, 10, 6]
+console.log(`Average : ${calculateAverage(arr1) }`);
+console.log(`Average : ${calculateAverage(arr2) }`)
